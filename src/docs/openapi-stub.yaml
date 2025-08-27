@@ -1,0 +1,10 @@
+openapi: 3.0.3
+info:
+  title: Travel Booking API (MVP)
+  version: 1.0.0
+paths:
+  /api/trips:
+    get:
+      summary: List trips
+    post:
+      summary: Create trip (admin)
